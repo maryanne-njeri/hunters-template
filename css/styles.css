@@ -1,0 +1,41 @@
+#EDCA1A
+
+html,
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.banner {
+	height: 90vh;
+	width: 100%;
+	background-image: url(../images/banner.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	position: absolute;
+	top: 10vh;
+	/*opacity: .9;*/
+}
+
+.logo{
+	font-family: 'Philosopher', sans-serif;
+}
+
+header {
+	position: fixed;
+	width: 100%;
+	top: 0;
+	z-index: 1;
+}
+
+.hide {
+	position: fixed;
+	top: 63px;
+	z-index: 1;
+ }
+
+main {
+	position: absolute;
+	top: 105vh;
+}
