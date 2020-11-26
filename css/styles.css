@@ -1,4 +1,6 @@
-#EDCA1A
+html {
+	scroll-behavior: smooth;
+}
 
 html,
 body {
@@ -10,12 +12,12 @@ body {
 	height: 90vh;
 	width: 100%;
 	background-image: url(../images/banner.jpg);
+	background-color: black;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
 	position: absolute;
 	top: 10vh;
-	/*opacity: .9;*/
 }
 
 .logo{
@@ -40,6 +42,21 @@ main {
 	top: 105vh;
 }
 
+.main {
+	position: absolute;
+	top: 10vh;
+}
+
 hr {
 	border-color: #d69e2e;
+}
+
+footer {
+	background-color: #fffff0; 
+	color: gray; 
+	font-size: 1em; 
+	padding: 50px; 
+	text-align: center; 
+	position: relative; 
+	top: 550vh;
 }

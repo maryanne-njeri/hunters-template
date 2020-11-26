@@ -7,96 +7,103 @@
 	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
-
 	<title>Hunter</title>
 </head>
 <body>
+	<!-- Header -->
 	<header class="p-4 sm:p-4 md:pr-1 h-16 bg-yellow-100 text-gray-700 flex md:px-4 lg:px-8">
 		<div class="mr-auto">
-			<a href="#" class="logo uppercase text-2xl">hunters</a>
+			<a href="#" id="" class="logo uppercase text-xl tracking-widest lg:text-2xl">hunters</a>
 		</div>
 		<div class="hidden md:block">
-			<a href="#home" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Home</a>
+			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Home</a>
 			<a href="#team" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Team</a> 
 			<a href="#about" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">About</a>
-			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Blog</a>
-			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Donate</a>
+			<a href="#blog" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Blog</a>
+			<a href="#donate" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Donate</a>
 		</div>
-		<div class="md:hidden text-2xl" id="bars">
+		<div class="md:hidden text-xl lg:text-2xl" id="bars">
 			<i class="fa fa-bars"></i>
 		</div>
-		<div class="hidden text-2xl" id="times">
+		<div class="hidden text-xl lg:text-2xl" id="times">
 			<i class="fa fa-times"></i>
 		</div>
 	</header>
+	<!-- Togggling menu items -->
 	<div id="menuItems" class="hidden">
 		<ul class="hide bg-yellow-100 shadow-lg text-gray-800 w-full">
-			<li class="mt-4 pl-4"><a href="#">Home</a></li>
-			<li class="mt-2 pl-4"><a href="#">About</a></li>
-			<li class="mt-2 pl-4"><a href="#">Blog</a></li>
-			<li class="mt-2 mb-4 pl-4"><a href="#">Donate</a></li>
+			<li class="pl-4 text-lg tracking-wider"><a href="#">Home</a></li>
+			<li class="mt-2 pl-4 text-lg"><a href="#team">Team</a></li>
+			<li class="mt-2 pl-4 text-lg"><a href="#about">About</a></li>
+			<li class="mt-2 pl-4 text-lg"><a href="#blog">Blog</a></li>
+			<li class="mt-2 mb-4 pl-4 text-lg"><a href="#donate">Donate</a></li>
 		</ul>
 	</div>
-	<div class="banner flex">
-		<div class="invisible md:visible md:place-self-center md:text-black md:text-opacity-100 uppercase md:p-4 md:text-4xl md:font-bold lg:text-5xl">	
-			<h6 class=" ">Welcome hunter</h6>
-		</div>
-	</div>
+	<!-- Banner -->
+	<div class="banner flex"></div>
+	<!-- main -->
 	<main class="p-4 sm:p-4 md:p-4 lg:px-8">
-		<div class="flex-col">
-			<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="team">The Team</a></h2>
-		</div>	
-		<section class="mt-6 md:w-full md:flex lg:w-3/4 lg:mx-auto lg:flex lg:h-auto">		
-			<div class="text-center sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:mr-6 md:justify-between md:w-1/2 md:mx-auto md:shadow-lg lg:shadow-lg">
-				<img src="images/cute.jpg" alt="Admin Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-				<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:p-2">			
-					<h1 class="mt-4 text-gray-700 font-bold text-lg">Sammy Tongoi</h1>
-					<h4 class="text-yellow-600"> CEO, Founder Hunters Initiative</h4>
-					<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>		
-			<div class="text-center mt-4 sm:mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mt-0 lg:mt-0 md:shadow-lg lg:shadow-lg">
-				<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-				<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:mx-auto lg:p-2">		
-					<h1 class="mt-4 text-gray-700 font-bold text-lg">Samuel Chege</h1>
-					<h4 class="text-yellow-600"> Tutor, Hunters Initiative</h4>
-					<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
+		<!-- Beginning of Team section -->
+		<section class="">	
+			<div id="team" class="flex-col">
+				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a>The Team</a></h2>
 			</div>	
+			<section class="xl:container xl:mx-auto xl:flex xl:flex-row xl:w-full">	
+				<section class="mt-6 md:container md:px-8 lg:container md:w-full md:flex lg:w-3/4 lg:mx-auto lg:flex lg:h-auto xl:w-auto xl:px-0 xl:mx-auto xl:mt-8">		
+					<div class="text-center sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:mr-6 md:justify-between md:w-1/2 md:mx-auto md:shadow-lg lg:shadow-lg xl:mr-2">
+						<img src="images/cute.jpg" alt="Admin Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
+						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:p-2">			
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Sammy Tongoi</h1>
+							<h4 class="text-yellow-600"> CEO, Founder Hunters Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>		
+					<div class="text-center mt-4 sm:mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mt-0 lg:mt-0 md:shadow-lg lg:shadow-lg xl:mr-2">
+						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
+						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:mx-auto lg:p-2">		
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Samuel Chege</h1>
+							<h4 class="text-yellow-600"> Tutor, Hunters Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>					
+				</section>
+
+				<section class="md:w-full md:mt-4 md:flex lg:w-3/4 lg:mx-auto lg:w-full lg:flex xl:px-0 xl:mx-auto xl:w-auto">		
+					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mr-4 md:shadow-lg lg:shadow-lg xl:mr-2">
+						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
+						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
+							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>			
+					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg md:mr-4 lg:shadow-lg xl:mr-2">
+						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
+						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hanninton Odhiambo</h1>
+							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>		
+					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg lg:shadow-lg lg:object-contain">
+						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain">
+						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Rosemary Njeri</h1>
+							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
+							tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>						
+				</section>
+			</section>
+			<!-- End of Team section -->
 		</section>
 
-		<section class="md:w-full md:mt-4 md:flex lg:w-3/4 lg:mx-auto lg:w-full lg:flex">		
-			<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mr-4 md:shadow-lg lg:shadow-lg">
-				<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-				<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
-					<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
-					<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-					<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>			
-			<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg md:mr-4 lg:shadow-lg">
-				<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-				<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
-					<h1 class="mt-4 text-gray-700 font-bold text-lg">Hanninton Odhiambo</h1>
-					<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-					<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>		
-			<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg lg:shadow-lg lg:object-contain">
-				<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain">
-				<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
-					<h1 class="mt-4 text-gray-700 font-bold text-lg">Rosemary Njeri</h1>
-					<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-					<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua.</p>
-				</div>
-			</div>						
-		</section>
-
+		<!-- Beginning of About section  -->
 		<section class="h-full">	
 			<div class="flex-col mt-8">
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="about">About</a></h2>
@@ -122,10 +129,10 @@
 				</div>
 			</section>
 		</section>
-
-			<div class="flex-col mt-8">
-				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="updates">Blog</a></h2>
-			</div>
+ 
+		<div class="flex-col mt-8">
+			<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="blog">Blog</a></h2>
+		</div>
 		<section class="md:bg-yellow-100 md:flex">
 			<section class="md:flex md:flex-col md:justify-around md:w-full">
 				<div class="blogOne mt-2 md:shadow-lg md:mr-4 md:ml-4 md:p-4 bg-white md:w-3/4">
@@ -137,7 +144,7 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>							
 					<p class="pb-2">
-						<a href="#" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium">Read More</a>
+						<a href="#" class="navigatorOne border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>	
 				</div>
 				<hr class="mt-6 md:hidden">
@@ -150,7 +157,7 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p class="pb-2">
-						<a href="#" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium">Read More</a>
+						<a href="#" class="navigatorTwo border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>	
 				</div>	
 				<hr class="mt-6 md:hidden">			
@@ -163,12 +170,10 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p class="pb-2">
-						<a href="#" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium">Read More</a>
+						<a href="#" class="navigatorThree border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>				
 				</div>
 				<hr class="mt-6 md:hidden">			
-
-
 			</section>
 			<div class="md:w-2/4 mt-6 md:border md:mr-2 md:mr-6 md:p-4 md:bg-white md:h-full lg:h-screen">
 				<h1 class="text-gray-700 font-bold text-md tracking-wider">Top Stories</h1>
@@ -180,27 +185,55 @@
 
 		<section class="bg-yellow-100">
 			<div class="flex-col mt-8">
-				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="about">Donate</a></h2>
+				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="donate">Donate</a></h2>
 			</div>
-			<div class="bg-white h-full border">
-				<form>
-					<input type="checkbox" id="monthly" placeholder="Monthly Donor" class="w-1/6  h-32">
-					<label for="monthly"></label>
-					<input type="checkbox" id="oneTime" placeholder="One-Time Donor">
-					<label for="oneTime"></label>
+			<div class="mt-2 bg-white h-full md:px-4 lg:px-4">
+				<form>								
+					<div>	
+						<label class="text-sm">Amount</label> &nbsp; <br>
+						<select name="content" class="px-6 border border-yellow-600 focus:outline-none sm:px-10 md:px-22 lg:px-8">
+							<option value="america" class="text-sm">USD</option>
+							<option value="africa" class="text-sm">ZAR</option>
+							<option value="europe" class="text-sm">EUR</option>
+							<option value="asia" class="text-sm">INR</option>
+						</select> <br>				
+					</div>
+					<div class="mt-2">					
+						<label class="text-sm text-bold">Continent</label> &nbsp; <br>
+						<select name="amount" class="px-3 border border-yellow-600 focus:outline-none sm:px-6 md:px-20 lg:px-6">
+							<option value="america" class="text-sm">America</option>
+							<option value="africa" class="text-sm">Africa</option>
+							<option value="europe" class="text-sm">Europe</option>
+							<option value="asia" class="text-sm">Asia</option>
+						</select> <br>
+					</div>
+					<div class="mt-2 sm:mt-2 md:mt-4">
+						<label class="text-sm md:mr-2 md:mr-10">Email</label> <br>
+						<input type="email" name="email" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-16"> <br>
+					</div>
+					<div class="mt-2 sm:mt-2 md:mt-2">	
+						<label class="text-sm">First Name</label> <br>
+						<input type="First Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-16"> <br>
+					</div>
+					<div class="mt-2 sm:mt-2 md:mt-2">						
+						<label class="text-sm">Last Name</label> <br>
+						<input type="Last Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-16"> <br>
+					</div>
+					<div class="mt-2 sm:mt-2 md:mt-2">						
+						<label class="text-sm">Message</label> <br>
+						<textarea rows="4" cols="42" class="border border-yellow-600 focus:outline-none"></textarea>
+					</div>
 				</form>
-				Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-				consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-				cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-				proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				<div>
+					<button class="px-6 py-1 text-white text-sm border border-yellow-600 bg-yellow-600 uppercase font-medium mt-4 focus:outline-none hover:bg-yellow-700 hover:text-gray-200 md:px-10 md:py-1">Donate</button>
+				</div>
 			</div>
 		</section>
-
-
 	</main>
-	<footer></footer>
+
+	<footer class="hidden">
+		<span>© Copyright ©2020 All rights reserved | This template is made with &hearts; by Maryanne Student: Hunters Initiative</span>
+	</footer>
 
 	<script type="text/javascript" src="js/app.js"></script>
 </body>

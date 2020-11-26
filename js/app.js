@@ -21,17 +21,18 @@ selectObject.bars.addEventListener('click', returnFunc);
 
 
 // blog behaviour
+var navigatorOne = document.querySelector('.navigatorOne');
+var navigatorTwo = document.querySelector('.navigatorTwo');
+var navigatorThree = document.querySelector('.navigatorThree');
 
-var selectObjectTwo = {
-	blogOne : document.querySelector('.blogOne'),
-	blogTwo : document.querySelector('.blogTwo'),
-	blogThree : document.querySelector('.blogOne')
-}
+navigatorOne.addEventListener('click', () => {
+	window.location.href = 'blog-one.html';
+})
 
-function returnFuncTwo() {
-	if () {}
-	selectObjectTwo.blogOne.innerHTML = 'Read More...';
-	selectObjectTwo.blogOne.style.backgroundColor = 'blue';
-}
+navigatorTwo.addEventListener('click', () => {
+	window.location.href = 'blog-two.html';
+})
 
-selectObjectTwo.blogOne.addEventListener('mouseover', returnFuncTwo);
+navigatorThree.addEventListener('click', () => {
+	window.location.href = 'blog-three.html';
+})

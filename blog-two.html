@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="css/styles.css">
+	<link href="https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
+	<title>Hunter</title>
+</head>
+<body>
+	<header class="p-4 sm:p-4 md:pr-1 h-16 bg-yellow-100 text-gray-700 flex md:px-4 lg:px-8">
+		<div class="mr-auto">
+			<a href="index.html" class="logo uppercase text-2xl">hunters</a>
+		</div>
+		<div class="hidden md:block">
+			<a href="index.html" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Home</a>
+			<a href="#team" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Team</a> 
+			<a href="#about" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">About</a>
+			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Blog</a>
+			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Donate</a>
+		</div>
+		<div class="md:hidden text-2xl" id="bars">
+			<i class="fa fa-bars"></i>
+		</div>
+		<div class="hidden text-2xl" id="times">
+			<i class="fa fa-times"></i>
+		</div>
+	</header>
+	<div id="menuItems" class="hidden">
+		<ul class="hide bg-yellow-100 shadow-lg text-gray-800 w-full">
+			<li class="homePage mt-4 pl-4"><a href="index.html">Home</a></li>
+			<li class="aboutPage mt-2 pl-4"><a href="#">About</a></li>
+			<li class="blogPage mt-2 pl-4"><a href="#">Blog</a></li>
+			<li class="donatePage mt-2 mb-4 pl-4"><a href="#">Donate</a></li>
+		</ul>
+	</div>
+	<main class="main p-4 sm:p-4 md:p-4 lg:px-8">
+		<h1 class="text-yellow-600 font-bold text-lg tracking-wider uppercase">Youth Programs</h1>
+		<div>
+			<img src="images/youths.jpg" class="mt-4 w-full md:object-contain lg:object-contain">
+		</div>
+		<div class="mx-auto lg:mx-auto">
+			<p class="mt-4">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>	
+			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			<p class="mt-2">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+			tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+			quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+			consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+			cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+			proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+		</div>
+		<section class="mt-6 lg:flex lg:flex-col">
+			<h1 class="text-gray-700 font-bold text-lg tracking-wider">Leave a comment</h1>
+			<div class="">
+				<input class="border border-yellow-600 mt-6 focus:outline-none px-4 border border-yellow-600 mt-6 focus:outline-none lg:px-16"> 
+				&nbsp;
+				<label class="text-gray-700 text-sm">Full Name</label> 
+				<br>
+				<input class="border border-yellow-600 mt-4 focus:outline-none px-4 border border-yellow-600 mt-4 focus:outline-none lg:px-16">
+				&nbsp;
+				<label class="text-gray-700 text-sm">Email</label> 
+				<br> 
+				<textarea rows="4" cols="42" id="textarea" class="border border-yellow-600 mt-4 focus:outline-none"></textarea>
+				<br>
+				<div class="">
+					<button id="submitButton" class="px-4 py-2 text-sm border border-yellow-600 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700 mt-4 focus:outline-none md:px-6 md:py-2 lg:px-6 lg:py-2">Submit Comment</button>
+				</div>
+			</div>
+		</section>
+	</main>
+	<script type="text/javascript" src="js/app.js"></script>
+</body>
+</html>
