@@ -19,20 +19,29 @@ function returnFunc() {
 // calling function
 selectObject.bars.addEventListener('click', returnFunc);
 
+// let about = document.getElementById('about');
+// let paragraph = document.getElementById('paragraph');
+
+// about.addEventListener('click', () => {
+// 	paragraph.style.color = 'red';
+// })
 
 // blog behaviour
-var navigatorOne = document.querySelector('.navigatorOne');
-var navigatorTwo = document.querySelector('.navigatorTwo');
-var navigatorThree = document.querySelector('.navigatorThree');
+let navigatorOne = document.getElementById('navigatorOne');
+let navigatorTwo = document.getElementById('navigatorTwo');
+let navigatorThree = document.getElementById('navigatorThree');
+// let firstBlog = document.getElementById('firstBlog');
 
 navigatorOne.addEventListener('click', () => {
-	window.location.href = 'blog-one.html';
+	location.href = 'blog-one.html';
 })
 
 navigatorTwo.addEventListener('click', () => {
-	window.location.href = 'blog-two.html';
+	location.href = 'blog-two.html';
 })
 
 navigatorThree.addEventListener('click', () => {
-	window.location.href = 'blog-three.html';
+	location.href = 'blog-three.html';
 })
+
+

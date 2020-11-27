@@ -108,9 +108,9 @@
 			<div class="flex-col mt-8">
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="about">About</a></h2>
 			</div>
-			<section class="bg-yellow-100 md:flex md:justify-between md:w-full">
+			<section class="md:bg-yellow-100 md:flex md:justify-between md:w-full md:px-4">
 				<div class="mt-2 md:w-full">
-					<p class="md:mr-4 lg:mr-8">
+					<p id="paragraph" class="md:mr-4 lg:mr-8">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
@@ -144,7 +144,7 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>							
 					<p class="pb-2">
-						<a href="#" class="navigatorOne border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
+						<a href="#" id="navigatorOne" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>	
 				</div>
 				<hr class="mt-6 md:hidden">
@@ -157,11 +157,11 @@
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p class="pb-2">
-						<a href="#" class="navigatorTwo border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
+						<a href="#" id="navigatorTwo" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>	
 				</div>	
 				<hr class="mt-6 md:hidden">			
-				<div class="blogThree mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-4 bg-white md:w-3/4 border-b-1 border-yellow-600">
+				<div class="blogThree mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-4 md:mb-4 bg-white md:w-3/4">
 					<h6 class="text-gray-700 font-bold text-md tracking-wider">Recreation</h6>
 					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
@@ -169,8 +169,8 @@
 					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
 					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
 					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p class="pb-2">
-						<a href="#" class="navigatorThree border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
+					<p class="pb-2 mb-">
+						<a href="#" id="navigatorThree" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
 					</p>				
 				</div>
 				<hr class="mt-6 md:hidden">			
@@ -183,7 +183,7 @@
 			</div>
 		</section>
 
-		<section class="bg-yellow-100">
+		<section>
 			<div class="flex-col mt-8">
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="donate">Donate</a></h2>
 			</div>
@@ -191,16 +191,16 @@
 				<form>								
 					<div>	
 						<label class="text-sm">Amount</label> &nbsp; <br>
-						<select name="content" class="px-6 border border-yellow-600 focus:outline-none sm:px-10 md:px-22 lg:px-8">
+						<select name="content" class="px-6 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
 							<option value="america" class="text-sm">USD</option>
 							<option value="africa" class="text-sm">ZAR</option>
 							<option value="europe" class="text-sm">EUR</option>
 							<option value="asia" class="text-sm">INR</option>
 						</select> <br>				
 					</div>
-					<div class="mt-2">					
+					<div class="mt-2 md:4">					
 						<label class="text-sm text-bold">Continent</label> &nbsp; <br>
-						<select name="amount" class="px-3 border border-yellow-600 focus:outline-none sm:px-6 md:px-20 lg:px-6">
+						<select name="amount" class="px-3 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
 							<option value="america" class="text-sm">America</option>
 							<option value="africa" class="text-sm">Africa</option>
 							<option value="europe" class="text-sm">Europe</option>
@@ -209,15 +209,15 @@
 					</div>
 					<div class="mt-2 sm:mt-2 md:mt-4">
 						<label class="text-sm md:mr-2 md:mr-10">Email</label> <br>
-						<input type="email" name="email" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-2"> <br>
+						<input type="email" name="email" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
 					</div>
 					<div class="mt-2 sm:mt-2 md:mt-2">	
 						<label class="text-sm">First Name</label> <br>
-						<input type="First Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-2"> <br>
+						<input type="First Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
 					</div>
 					<div class="mt-2 sm:mt-2 md:mt-2">						
 						<label class="text-sm">Last Name</label> <br>
-						<input type="Last Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-6 md:px-8 lg:px-2"> <br>
+						<input type="Last Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
 					</div>
 					<div class="mt-2 sm:mt-2 md:mt-2">						
 						<label class="text-sm">Message</label> <br>
