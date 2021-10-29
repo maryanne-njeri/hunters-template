@@ -2,16 +2,16 @@
 
 // selecting objects
 var selectObject = {
-	menuItems : document.getElementById('menuItems'),
-	bars : document.getElementById('bars')
+	menuItems: document.getElementById('menuItems'),
+	bars: document.getElementById('bars')
 }
 // manipulation
 function returnFunc() {
-	if(selectObject.menuItems.style.display === 'none'){	
+	if (selectObject.menuItems.style.display === 'none') {
 		selectObject.menuItems.style.display = 'block';
 		selectObject.menuItems.style.transition = 'width 2s linear 1s';
-		selectObject.bars.innerHTML =  '<i class="fa fa-times"></i>';
-	}else{
+		selectObject.bars.innerHTML = '<i class="fa fa-times"></i>';
+	} else {
 		selectObject.menuItems.style.display = 'none';
 		selectObject.bars.innerHTML = '<i class="fa fa-bars"></i>';
 	}

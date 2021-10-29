@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,19 +10,24 @@
 	<link href="https://fonts.googleapis.com/css2?family=Philosopher:wght@700&display=swap" rel="stylesheet">
 	<title>Hunter</title>
 </head>
+
 <body>
 	<!-- Header -->
-	<!-- Needs to refactor header -->
 	<header class="p-4 sm:p-4 md:pr-1 h-16 bg-yellow-100 text-gray-700 flex md:px-4 lg:px-8">
 		<div class="mr-auto">
-			<a href="#" id="" class="logo uppercase text-xl tracking-widest lg:text-2xl">hunters</a>
+			<a href="#" class="logo uppercase text-xl tracking-widest lg:text-2xl">the hunter initiative</a>
 		</div>
-		<div class="hidden md:block">
-			<a href="#" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Home</a>
-			<a href="#team" class="linkTeam md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Team</a> 
-			<a href="#about" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">About</a>
-			<a href="#blog" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Blog</a>
-			<a href="#donate" class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Donate</a>
+		<div class="hidden md:block font-semibold">
+			<a href="#"
+				class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Home</a>
+			<a href="#team"
+				class="linkTeam md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Team</a>
+			<a href="#about"
+				class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">About</a>
+			<a href="#blog"
+				class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Blog</a>
+			<a href="#donate"
+				class="md:hover:bg-yellow-500 md:hover:text-white md:px-4 md:py-1 md:rounded-lg md:transiton duration-700 ease-in-out">Donate</a>
 		</div>
 		<div class="md:hidden text-xl lg:text-2xl" id="bars">
 			<i class="fa fa-bars"></i>
@@ -41,146 +47,219 @@
 		</ul>
 	</div>
 	<!-- Banner -->
-	<div class="banner p-0 sm:w-full md:w-full lg:w-full xl:w-full"></div>
+	<div class="banner p-0 sm:w-full md:w-full lg:w-full xl:w-full">
+		<div class="flex pl-8">
+			<p class="text-4xl font-bold text-white uppercase" style="position: absolute; top: 35vh; text-align: center"
+				;>
+				Coding Is What We Are Passionate about.
+			</p>
+			<!-- <button type="submit" class="border rounded-xl focus:outline-none px-6 py-2 bg-white text-gray-800 font-bold hover:bg-yellow-500 hover:text-white" 
+			style="position: absolute; top: 45vh;">Support Us</button> -->
+			<div>
+				<a href="#" class="border border-yellow-600 bg-yellow-600 px-10 py-2 mx-auto hover:bg-yellow-700 hover:text-white uppercase 
+				font-medium text-white" style="position: absolute; top: 45vh;">Support Us</a>
+			</div>
+
+		</div>
+	</div>
 	<!-- main -->
 	<main class="p-4 sm:p-4 md:p-4 lg:px-8">
 		<!-- Beginning of Team section -->
-		<section>	
+		<section>
 			<div class="flex-col">
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="team">The Team</a></h2>
-			</div>	
-			<section class="xl:flex xl:flex-row xl:w-full">	
-				<section class="mt-6 md:container md:px-4 lg:container md:w-full md:flex lg:w-3/4 lg:mx-auto lg:flex lg:h-auto xl:w-auto xl:px-0 xl:mx-auto xl:mt-8">		
-					<div class="text-center sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:mr-6 md:justify-between md:w-1/2 md:mx-auto md:shadow-lg lg:shadow-lg xl:mr-2">
-						<img src="images/cute.jpg" alt="Admin Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:p-2">			
-							<h1 class="mt-4 text-gray-700 font-bold text-lg">Sammy Tongoi</h1>
-							<h4 class="text-yellow-600"> CEO, Founder Hunters Initiative</h4>
-							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>		
-					<div class="text-center mt-4 sm:mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mt-0 lg:mt-0 md:shadow-lg lg:shadow-lg xl:mr-2">
-						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto md:px-2 lg:text-center lg:mx-auto lg:p-2">		
-							<h1 class="mt-4 text-gray-700 font-bold text-lg">Samuel Chege</h1>
-							<h4 class="text-yellow-600"> Tutor, Hunters Initiative</h4>
-							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
-						</div>
-					</div>					
-				</section>
+			</div>
+			<section class="">
+				<section class="flex items-center justify-center w-full">
+					<!-- refactors classes -->
 
-				<section class="md:w-full md:mt-4 md:flex lg:w-3/4 lg:mx-auto lg:w-full lg:flex xl:px-0 xl:mx-auto xl:w-auto">		
-					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:mr-4 md:shadow-lg lg:shadow-lg xl:mr-2">
-						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
+					<!-- refactors classes -->
+					<div
+						class="sm:flex sm:justify-between sm:flex-row block sm:w-full md:w-1/2 lg:w-1/4 md:flex-col md:mr-4 md:shadow-lg xl:mr-32 text-center mt-4">
+						<!-- removed 500px with on images -->
+						<img src="images/cute.jpg" alt="Student photo" width=""
+							class="sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain rounded-t-md">
+						<div
+							class="sm:shadow-none shadow-lg rounded-b-lg sm:px-0 px-2 pb-2 sm:text-left md:text-center sm:ml-2 md:mx-auto lg:p-2">
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
+							<h4 class="text-yellow-600">CEO, Founder The Hunter Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur
+								adipisicing elit, sed do
+								eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+
+					<div
+						class="sm:flex sm:justify-between sm:flex-row block sm:w-full md:w-1/2 lg:w-1/4 md:flex-col md:mr-4 md:shadow-lg text-center mt-4">
+						<!-- removed 500px with on images -->
+						<img src="images/cute.jpg" alt="Student photo" width=""
+							class="sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain rounded-t-md">
+						<div
+							class="sm:shadow-none shadow-lg rounded-b-lg sm:px-0 px-2 pb-2 sm:text-left md:text-center sm:ml-2 md:mx-auto lg:p-2">
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
+							<h4 class="text-yellow-600">CEO, Founder The Hunter Initiative</h4>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur
+								adipisicing elit, sed do
+								eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
+						</div>
+					</div>
+					<!-- refactors classes -->
+
+				</section>
+				<section
+					class="mt-6 md:container md:px-4 lg:container md:w-full md:flex lg:w-3/4 lg:mx-auto lg:flex lg:h-auto xl:w-3/4 xl:flex xl:px-0 xl:mt-8">
+
+				</section>
+				<section class="flex items-center justify-around w-full">
+					<!-- refactors classes -->
+					<div
+						class="sm:flex sm:justify-between sm:w-full md:w-1/2 lg:w-1/4 md:flex-col md:mr-4 md:shadow-lg xl:mr-2 text-center mt-4">
+						<!-- removed 500px with on images -->
+						<img src="images/cute.jpg" alt="Student photo" width=""
+							class="sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain rounded-t-md">
+						<div
+							class="sm:shadow-none shadow-lg rounded-b-lg sm:px-0 px-2 pb-2 sm:text-left md:text-center sm:ml-2 md:mx-auto lg:p-2">
 							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
 							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur
+								adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-					</div>			
-					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg md:mr-4 lg:shadow-lg xl:mr-2">
-						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain lg:object-contain">
-						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
-							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hanninton Odhiambo</h1>
+					</div>
+					<!-- refactors classes -->
+					<div
+						class="sm:flex sm:justify-between sm:w-full md:w-1/2 lg:w-1/4 md:flex-col md:mr-4 md:shadow-lg xl:mr-2 text-center mt-4">
+						<!-- removed 500px with on images -->
+						<img src="images/cute.jpg" alt="Student photo" width=""
+							class="sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain rounded-t-md">
+						<div
+							class="sm:shadow-none shadow-lg rounded-b-lg sm:px-0 px-2 pb-2 sm:text-left md:text-center sm:ml-2 md:mx-auto lg:p-2">
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
 							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur
+								adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-					</div>		
-					<div class="text-center mt-4 sm:flex sm:justify-between sm:w-full md:flex md:flex-col md:justify-between md:w-1/2 md:shadow-lg lg:shadow-lg lg:object-contain">
-						<img src="images/cute.jpg" alt="Tutor Photo" width="500px" class="rounded-t-md sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain">
-						<div class="shadow-lg rounded-b-lg px-2 pb-2 sm:w-1/2 sm:px-0 sm:text-left sm:shadow-none sm:ml-2 md:w-full md:text-center md:mx-auto lg:text-center lg:mx-auto lg:p-2">		
-							<h1 class="mt-4 text-gray-700 font-bold text-lg">Rosemary Njeri</h1>
+					</div>
+					<!-- refactors classes -->
+					<div
+						class="sm:flex sm:justify-between sm:w-full md:w-1/2 lg:w-1/4 md:flex-col md:mr-4 md:shadow-lg xl:mr-2 text-center mt-4">
+						<!-- removed 500px with on images -->
+						<img src="images/cute.jpg" alt="Student photo" width=""
+							class="sm:mr-2 sm:rounded-lg sm:w-1/2 md:w-full md:object-contain rounded-t-md">
+						<div
+							class="sm:shadow-none shadow-lg rounded-b-lg sm:px-0 px-2 pb-2 sm:text-left md:text-center sm:ml-2 md:mx-auto lg:p-2">
+							<h1 class="mt-4 text-gray-700 font-bold text-lg">Hellen Atitu</h1>
 							<h4 class="text-yellow-600"> Student, Hunters Initiative</h4>
-							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur adipisicing elit, sed do eiusmod
-							tempor incididunt ut labore et dolore magna aliqua.</p>
+							<p class="mt-2">Lorem ipsum dolor sit amet,consectetur adipisicing elit,consectetur
+								adipisicing elit, sed do eiusmod
+								tempor incididunt ut labore et dolore magna aliqua.</p>
 						</div>
-					</div>						
+					</div>
 				</section>
 			</section>
 			<!-- End of Team section -->
 		</section>
 
 		<!-- Beginning of About section  -->
-		<section class="h-full">	
-			<div class="flex-col mt-8">
+		<section class="h-full mt-20">
+			<div class="flex-col">
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="about">About</a></h2>
 			</div>
-			<section class="md:bg-yellow-100 md:flex md:justify-between md:w-full md:px-4">
-				<div class="mt-2 md:w-full">
+			<section class="mt-6 md:bg-yellow-100 md:flex md:justify-between md:w-full md:px-4">
+				<div class="mt-2 md:w-full lg:p-8">
 					<p id="paragraph" class="md:mr-4 lg:mr-8">
 						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+						cillum dolore eu fugiat nulla pariatur.</p> <br>
+
+					<p id="paragraph" class="md:mr-4 lg:mr-8">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
 						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
 						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-					</p>
+						cillum dolore eu fugiat nulla pariatur.</p>
+
 				</div>
 				<div class="md:w-full">
 					<img src="images/banner.jpg" class="mt-6 md:mt-4">
 				</div>
 			</section>
 		</section>
- 
+
 		<div class="flex-col mt-8">
 			<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="blog">Blog</a></h2>
 		</div>
 		<section class="md:bg-yellow-100 md:flex">
 			<section class="md:flex md:flex-col md:justify-around md:w-full">
-				<div class="blogOne mt-2 md:shadow-lg md:mr-4 md:ml-4 md:p-4 bg-white md:w-3/4">
+				<div class="blogOne mt-2 md:shadow-lg md:mr-4 md:ml-4 md:p-8 bg-white md:w-3/4">
 					<h6 class="text-gray-700 font-bold text-md tracking-wider">Career Opportunities</h6>
-					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>							
+					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p class="pb-2">
-						<a href="#" id="navigatorOne" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
-					</p>	
+						<a href="#" id="navigatorOne"
+							class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read
+							More</a>
+					</p>
 				</div>
 				<hr class="mt-6 md:hidden">
-				<div class="blogTwo mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-4 bg-white md:w-3/4">
+				<div class="blogTwo mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-8 bg-white md:w-3/4">
 					<h6 class="text-gray-700 font-bold text-md tracking-wider">Youth Programs</h6>
-					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
 					<p class="pb-2">
-						<a href="#" id="navigatorTwo" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
-					</p>	
-				</div>	
-				<hr class="mt-6 md:hidden">			
-				<div class="blogThree mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-4 md:mb-4 bg-white md:w-3/4">
-					<h6 class="text-gray-700 font-bold text-md tracking-wider">Recreation</h6>
-					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-					<p class="pb-2 mb-">
-						<a href="#" id="navigatorThree" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read More</a>
-					</p>				
+						<a href="#" id="navigatorTwo" class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase 
+						font-medium text-gray-700">Read More</a>
+					</p>
 				</div>
-				<hr class="mt-6 md:hidden">			
+				<hr class="mt-6 md:hidden">
+				<div class="blogThree mt-6 md:shadow-lg md:mr-4 md:ml-4 md:p-8 md:mb-4 bg-white md:w-3/4">
+					<h6 class="text-gray-700 font-bold text-md tracking-wider">Recreation</h6>
+					<p class="mt-2 mb-4 text-justify">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+						eiusmod
+						tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+						quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+						consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+						cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+						proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+					<p class="pb-2 mb-">
+						<a href="#" id="navigatorThree"
+							class="border border-yellow-600 px-6 py-2 mx-auto hover:bg-yellow-600 hover:text-white uppercase font-medium text-gray-700">Read
+							More</a>
+					</p>
+				</div>
+				<hr class="mt-6 md:hidden">
 			</section>
-			<div class="md:w-2/4 mt-6 md:border md:mr-2 md:mr-6 md:p-4 md:bg-white md:h-full lg:h-screen">
+			<div class="md:w-2/4 mt-6 md:border md:mr-2 md:mr-6 md:p-8 md:bg-white md:h-full lg:h-screen">
 				<h1 class="text-gray-700 font-bold text-md tracking-wider">Top Stories</h1>
-				<p class="sm:mt-2 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>	
-				<p class="sm:mt-2 md:mt-4 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>	
-				<p class="sm:mt-2 md:mt-4 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>
+				<div class="hover:underline">
+					<p class="sm:mt-2 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>
+				</div>
+				<hr class="mt-4">
+				<div class="hover:underline">
+					<p class="sm:mt-2 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>
+				</div>
+				<hr class="mt-4">
+				<div class="hover:underline">
+					<p class="sm:mt-2 lg:mt-4"><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+							sed do eiusmodtempor incididunt ut labore et dolore magna aliqua.</a></p>
+				</div>
 			</div>
 		</section>
 
@@ -189,19 +268,21 @@
 				<h2 class="text-yellow-600 font-bold text-lg tracking-wider uppercase"><a id="donate">Donate</a></h2>
 			</div>
 			<div class="mt-2 bg-white h-full md:px-4 lg:px-4">
-				<form>								
-					<div>	
+				<form>
+					<div>
 						<label class="text-sm">Amount</label> &nbsp; <br>
-						<select name="content" class="px-6 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
+						<select name="content"
+							class="px-6 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
 							<option value="america" class="text-sm">USD</option>
 							<option value="africa" class="text-sm">ZAR</option>
 							<option value="europe" class="text-sm">EUR</option>
 							<option value="asia" class="text-sm">INR</option>
-						</select> <br>				
+						</select> <br>
 					</div>
-					<div class="mt-2 md:4">					
+					<div class="mt-2 md:4">
 						<label class="text-sm text-bold">Continent</label> &nbsp; <br>
-						<select name="amount" class="px-3 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
+						<select name="amount"
+							class="px-3 border border-yellow-600 focus:outline-none sm:px- md:px- lg:px-">
 							<option value="america" class="text-sm">America</option>
 							<option value="africa" class="text-sm">Africa</option>
 							<option value="europe" class="text-sm">Europe</option>
@@ -210,32 +291,42 @@
 					</div>
 					<div class="mt-2 sm:mt-2 md:mt-4">
 						<label class="text-sm md:mr-2 md:mr-10">Email</label> <br>
-						<input type="email" name="email" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
+						<input type="email" name="email"
+							class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2">
+						<br>
 					</div>
-					<div class="mt-2 sm:mt-2 md:mt-2">	
+					<div class="mt-2 sm:mt-2 md:mt-2">
 						<label class="text-sm">First Name</label> <br>
-						<input type="First Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
+						<input type="First Name" name="text"
+							class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2">
+						<br>
 					</div>
-					<div class="mt-2 sm:mt-2 md:mt-2">						
+					<div class="mt-2 sm:mt-2 md:mt-2">
 						<label class="text-sm">Last Name</label> <br>
-						<input type="Last Name" name="text" class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2"> <br>
+						<input type="Last Name" name="text"
+							class="border border-yellow-600 focus:outline-none border border-yellow-600 focus:outline-none sm:px-2 md:px-2 lg:px-2">
+						<br>
 					</div>
-					<div class="mt-2 sm:mt-2 md:mt-2">						
+					<div class="mt-2 sm:mt-2 md:mt-2">
 						<label class="text-sm">Message</label> <br>
-						<textarea rows="3" cols="30" class="border border-yellow-600 focus:outline-none lg:px-2"></textarea>
+						<textarea rows="3" cols="30"
+							class="border border-yellow-600 focus:outline-none lg:px-2"></textarea>
 					</div>
 				</form>
 				<div>
-					<button class="px-6 py-1 text-white text-sm border border-yellow-600 bg-yellow-600 uppercase font-medium mt-4 focus:outline-none hover:bg-yellow-700 hover:text-gray-200 md:px-10 md:py-1">Donate</button>
+					<button
+						class="px-6 py-1 text-white text-sm border border-yellow-600 bg-yellow-600 uppercase font-medium mt-4 focus:outline-none hover:bg-yellow-700 hover:text-gray-200 md:px-10 md:py-1">Donate</button>
 				</div>
 			</div>
 		</section>
 	</main>
 
 	<footer class="hidden">
-		<span>© Copyright ©2020 All rights reserved | This template is made with &hearts; by Maryanne Student: Hunters Initiative</span>
+		<span>© Copyright ©2020 All rights reserved | This template is made with &hearts; by Maryanne Student: Hunters
+			Initiative</span>
 	</footer>
 
 	<script type="text/javascript" src="js/app.js"></script>
 </body>
+
 </html>
